@@ -11,7 +11,8 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: $main-color;
+	background: $menu-color;
+	z-index: 1;
 	a{
 		text-decoration: none;
 		color: inherit;
@@ -111,6 +112,13 @@
 .overlay-circle.close nav ul {
 	-webkit-transform: translateY(25%) rotateX(-35deg);
 	transform: translateY(25%) rotateX(-35deg);
+}
+
+#trigger-overlay {
+	position: fixed;
+	top: 1em;
+	right: 1em;
+	cursor: pointer
 }
 
 @media screen and (max-height: 30.5em) {

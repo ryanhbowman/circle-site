@@ -4,15 +4,20 @@
 @charset "utf-8";
 
 
-
 // Our variables
-$main-color: red;
+$menu-color: #111; //pink
+$bg-color: #F6EAE4; //pink
+
+$main-font: 'romana_reg';
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "normalize",
-        "base",
+        "menu",
+        "typography",
+        "helpers",
+        "spin-animations",
         "layout"
 ;
