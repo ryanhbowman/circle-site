@@ -1,2 +1,69 @@
+@keyframes spin
+  0%
+    transform: rotate3d(0,0,1,0deg)
+
+  100%
+    transform: rotate3d(0,0,1,360deg)
+
+@keyframes orbit
+  100%
+    transform: rotate3d(0,0,1,360deg)
+
+
 .spin-image
-  max-width: 100px
+  /* Style your earth
+  position: absolute
+  top: 0
+  left: 50%
+  height: 80px
+  width: 80px
+  margin-left: -40px
+  margin-top: -40px
+  animation: orbit 2s infinite linear
+
+.spin-container
+  /* For Section #2
+  position: absolute
+  top: 50%
+  left: 50%
+  width: 800px
+  height: 700px
+  margin-top: -300px
+  margin-left: -400px
+  border-width: 1px
+  border-style: dotted
+  border-color: white
+  border-radius: 50%
+  -webkit-animation: orbit 10s linear infinite
+  -moz-animation: orbit 10s linear infinite
+  -ms-animation: orbit 10s linear infinite
+  -o-animation: orbit 10s linear infinite
+  animation: orbit 10s linear infinite
+  // background: blue
+
+
+// .spin-image
+//   position: absolute
+//   top: 0
+//   left: 50%
+//
+//   height: 50px
+//   width: 50px
+//   margin-left: -25px
+//   margin-top: -25px
+//   animation: orbit 2s infinite linear
+//
+// .spin-container
+//   position: absolute
+//   top: 50%
+//   left: 50%
+//   transform: translate(-50%, -50%)
+//   width: 650px
+//   height: 400px
+//   animation: orbit 1s linear infinite
+//   background: blue
+//
+//   border-width: 0px
+//   border-style: dotted
+//   border-color: white
+//   border-radius: 50%

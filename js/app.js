@@ -42,3 +42,8 @@
 	triggerBttn.addEventListener( 'click', toggleOverlay );
 	closeBttn.addEventListener( 'click', toggleOverlay );
 })();
+
+
+$(document).ready(function() {
+	$('img.duotone').duotone();
+});
