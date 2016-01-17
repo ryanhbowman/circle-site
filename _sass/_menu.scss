@@ -12,7 +12,7 @@
 	top: 0;
 	left: 0;
 	background: $menu-color;
-	z-index: 1;
+	z-index: 3;
 	a{
 		text-decoration: none;
 		color: inherit;
@@ -40,7 +40,7 @@
 	text-align: center;
 	position: relative;
 	top: 50%;
-	height: 60%;
+	height: 40%;
 	font-size: 54px;
 	-webkit-transform: translateY(-50%);
 	transform: translateY(-50%);
@@ -58,7 +58,7 @@
 .overlay ul li {
 	display: block;
 	height: 20%;
-	height: calc(100% / 5);
+	height: calc(100% / 3);
 	min-height: 54px;
 }
 
@@ -72,7 +72,7 @@
 
 .overlay ul li a:hover,
 .overlay ul li a:focus {
-	color: #e3fcb1;
+	color: $blue;
 }
 
 /* Effects */
@@ -113,15 +113,32 @@
 	-webkit-transform: translateY(25%) rotateX(-35deg);
 	transform: translateY(25%) rotateX(-35deg);
 }
-
+hr {
+	border-style: solid
+}
 #trigger-overlay {
 	position: fixed;
-	top: 1em;
-	right: 1em;
+	top: 0em;
+	right: 0em;
+	width: 65px;
+	height: 100%;
 	cursor: pointer;
-	background: #222;
+	background: $red;
 	color: white;
 	padding: .49em 1em .5em;
+	z-index: 2;
+	transition: all .2s ease-in;
+	&:hover {
+		// background: darken($red, 10%);
+		width: 75px;
+	}
+}
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 667px) {
+  #trigger-overlay {
+		width: 30px;
+		padding: 5px;
+	}
 }
 
 @media screen and (max-height: 30.5em) {

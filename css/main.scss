@@ -3,13 +3,30 @@
 ---
 @charset "utf-8";
 
+$dark-blue: #1E1F30;
+$red: #F04E30;
+$tan: #FCFDF4;
+$blue: #C5ECEC;
 
 // Our variables
-$menu-color: blue; //pink
-$bg-color: #F6EAE4; //pink
+$menu-color: $red;
+$bg-color: $tan; //bright yellow
+$dusty-blue: #BBDDEE;
+$green: #D6DF23;
+$gray: #999;
+//#FFDDCC //salmon
+//#F35C50 //red
+//#F8BECA //bright pink
+//#41CBE8 // light blue
+//#F6EAE4; //pink
+//#f4a225 darker yellow
+
+
 
 $main-font: 'romana_reg';
 $max-width: 70em;
+
+$mobile-width: 500px;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -19,7 +36,7 @@ $max-width: 70em;
         "typography",
         "helpers",
         "spin-animations",
-
+        "buttons",
         "grid",
         "layout"
 ;
