@@ -44,22 +44,35 @@
     span.break
       display: block
 
-@media only screen and (min-device-width:768px) and (max-device-width :1024px) and (orientation: portrait)
+// @media only screen and (min-device-width:768px) and (max-device-width :1024px) and (orientation: portrait)
+//   .project
+//     article
+//       width: 80%
+//       margin-left: 7%
+//       margin-right: 0
+//       float: none
+//       margin-bottom: 1.5em
+//     aside
+//       width: 70%
+//       margin-left: 15%
+//       margin-top: 0
+//       span.break
+//         display: inline
+
+@media all and (max-width: 660px)
   .project
     article
-      width: 80%
-      margin-left: 7%
+      width: 90%
+      margin-left: 0%
       margin-right: 0
       float: none
       margin-bottom: 1.5em
     aside
-      width: 70%
-      margin-left: 15%
+      width: 90%
+      margin-left: 0%
       margin-top: 0
       span.break
         display: inline
-
-
 //
 // .one
 //   @include span-columns(1)
