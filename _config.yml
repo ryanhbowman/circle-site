@@ -9,7 +9,7 @@
 title: Circle Dev
 email: ryan@circle.co.ke
 description: Circle Digital action
-# baseurl: "/circle-site" # the subpath of your site, e.g. /blog
+baseurl: "/circle-site" # the subpath of your site, e.g. /blog
 url: "http://ryanhbowman.github.com" # the base hostname & protocol for your site
 twitter_username: circledigital
 github_username:  ryanhbowman
