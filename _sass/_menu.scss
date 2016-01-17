@@ -118,7 +118,10 @@
 	position: fixed;
 	top: 1em;
 	right: 1em;
-	cursor: pointer
+	cursor: pointer;
+	background: #222;
+	color: white;
+	padding: .49em 1em .5em;
 }
 
 @media screen and (max-height: 30.5em) {

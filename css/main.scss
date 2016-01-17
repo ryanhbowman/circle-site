@@ -9,7 +9,7 @@ $menu-color: blue; //pink
 $bg-color: #F6EAE4; //pink
 
 $main-font: 'romana_reg';
-
+$max-width: 70em;
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -19,5 +19,7 @@ $main-font: 'romana_reg';
         "typography",
         "helpers",
         "spin-animations",
+
+        "grid",
         "layout"
 ;
