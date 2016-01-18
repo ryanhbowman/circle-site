@@ -38,6 +38,35 @@ html, body {
     width: 770px;
     height: 770px;
   }
+  &.green {
+    background: $green;
+  }
+}
+
+
+
+.pentagon-container {
+  position: absolute;
+  right: 0;
+}
+.pentagon {
+    position: relative;
+    width: 750px;
+    border-width: 400px 181px 0;
+    border-style: solid;
+    border-color: $green transparent;
+    margin-top: 40%;
+}
+.pentagon:before {
+    content: "";
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -680px;
+    left: -181px;
+    border-width: 0 375px 280px;
+    border-style: solid;
+    border-color: transparent transparent $green;
 }
 
 
@@ -103,7 +132,7 @@ html, body {
 }
 
 h4.explain {
-  max-width: 230px;
+  max-width: 250px;
 }
 
 @media all and (max-width: 660px) {
