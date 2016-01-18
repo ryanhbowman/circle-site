@@ -118,10 +118,9 @@ html, body {
   }
 }
 
-@media only screen and (max-device-width: $mobile-width){
-
+.space-group {
+  margin-bottom: 2em;
 }
-
 .left-block {
   text-align: center;
   position: absolute;
@@ -129,16 +128,39 @@ html, body {
   left: 7em;
   // transform: translate(-25%, -25%);
   z-index: 1;
+
+  &.block-inside{
+    position: relative;
+    margin-top: 4em;
+    left: 0;
+    top: 0;
+  }
 }
 
 h4.explain {
   max-width: 250px;
 }
 
-@media all and (max-width: 660px) {
+h4.explain-long {
+  width: 100%;
+  max-width: 650px;
+
+}
+
+@media all and (max-width: 668px) {
   .left-block {
     top: 1em;
     left: 1.5em;
+    &.block-inside{
+      position: relative;
+      margin-top: 1em;
+    }
+  }
+
+  h4.explain-long {
+    width: 90%;
+    max-width: 450px;
+
   }
 
 }

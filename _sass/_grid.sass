@@ -27,6 +27,18 @@
   margin-left: auto
   margin-right: auto
 
+
+.column, .columns
+  float: left
+  img
+    width: 100%
+.fifth
+  width: 15%
+  margin-right: 5%
+  margin-bottom: 2em
+  &:nth-of-type(5n)
+    margin-right: 0
+
 .project
   position: relative
   img, iframe
@@ -44,6 +56,11 @@
     span.break
       display: block
 
+.row
+  padding: 0 2em
+.page.row
+  padding: 0
+
 // @media only screen and (min-device-width:768px) and (max-device-width :1024px) and (orientation: portrait)
 //   .project
 //     article
@@ -59,7 +76,16 @@
 //       span.break
 //         display: inline
 
-@media all and (max-width: 660px)
+@media all and (max-width: 668px)
+  .row
+    padding: 0 1em
+  .page.row
+    padding: 0
+  .fifth
+    width: 26%
+    margin-right: 4%
+    &:nth-of-type(3n)
+      margin-right: 0
   .project
     article
       width: 90%
