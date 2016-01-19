@@ -76,16 +76,25 @@
 //       span.break
 //         display: inline
 
+.three-fifths
+  width: 45%
+  margin-right: 5%
+.two-fifths
+  width: 40%
+
 @media all and (max-width: 668px)
   .row
     padding: 0 1em
   .page.row
     padding: 0
   .fifth
-    width: 26%
-    margin-right: 4%
-    &:nth-of-type(3n)
+    width: 40%
+    margin-right: 7%
+    margin-bottom: 1em
+    &:nth-of-type(2n)
       margin-right: 0
+    &:nth-of-type(5n)
+      margin-right: 7%
   .project
     article
       width: 90%
