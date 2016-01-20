@@ -164,3 +164,23 @@ h4.explain-long {
   }
 
 }
+
+.name {
+  position: absolute;
+  font-family: "Gotham SSm A", "Gotham SSm B", helvetica;
+  background: $red;
+  color: white;
+  width: 100%;
+  bottom: 2em;
+  padding: .75em 0;
+  text-transform: uppercase;
+  text-align: center;
+  span {
+    text-transform: lowercase;
+    color: rgba(255,255,255,.7);
+    font-size: .7em;
+    display: block;
+  font-style: italic;
+  margin-bottom: 3px;
+  }
+}

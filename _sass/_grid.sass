@@ -5,6 +5,8 @@
   margin-left: auto
   margin-right: auto
   max-width: $max-width
+  &.no-padding
+    padding: 0
 .page-row
   width: 100%
   padding: 3em 2em
@@ -26,6 +28,7 @@
   max-width: 48em
   margin-left: auto
   margin-right: auto
+
 
 
 .column, .columns
@@ -85,7 +88,16 @@
 .fourths
   width: 24%
   margin-right: .6%
-
+  position: relative
+.half
+  width: 49%
+  margin-right: .6%
+  position: relative
+.thirds
+  width: 30%
+  margin-right: 3%
+  &:last-of-type
+    margin-right: 0
 
 @media all and (max-width: 668px)
   .two-fifths, .three-fifths
