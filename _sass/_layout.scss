@@ -11,7 +11,7 @@ html, body {
 
 
 #wrapper {
-	min-height: 100%;
+	min-height: 85%;
   background: $bg-color;
 }
 
@@ -138,7 +138,7 @@ html, body {
 }
 
 h4.explain {
-  max-width: 250px;
+  max-width: 350px;
 }
 
 h4.explain-long {
@@ -170,9 +170,10 @@ h4.explain-long {
   font-family: "Gotham SSm A", "Gotham SSm B", helvetica;
   background: $red;
   color: white;
-  width: 100%;
+  width: 70%;
   bottom: 2em;
   padding: .75em 0;
+  margin-left: 15%;
   text-transform: uppercase;
   text-align: center;
   span {

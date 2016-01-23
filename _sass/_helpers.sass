@@ -2,3 +2,20 @@
   margin: 0
 .relative
   position: relative
+@keyframes shake
+  0%
+    transform: rotate(0deg)
+  2%
+    transform: rotate(-2deg)
+  6%
+    transform: rotate(2deg)
+  10%
+    transform: rotate(-2deg)
+  12%
+    transform: rotate(0deg)
+
+
+
+.shake
+  // transform: rotate(2deg)
+  animation: shake infinite ease-out 4s

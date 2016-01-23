@@ -47,3 +47,7 @@
 $(document).ready(function() {
 	$('img.duotone').duotone();
 });
+
+$(document).scroll(function() {
+	$('img.shake').removeClass('shake');
+});
