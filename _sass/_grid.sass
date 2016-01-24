@@ -58,6 +58,11 @@
     margin-top: 15%
     span.break
       display: block
+  &.project-reverse
+    article, aside
+      float: right
+    article
+      margin-left: 4%
 
 .row
   padding: 0 2em
@@ -93,6 +98,11 @@
   width: 49%
   margin-right: .6%
   position: relative
+  &.big-space
+    width: 48%
+    margin-right: 4%
+  &:last-of-type
+    margin-right: 0
 .thirds
   width: 30%
   margin-right: 3%
@@ -120,17 +130,19 @@
     margin-right: 1%
     &:nth-of-type(5n)
       margin-right: 1%
-  .project
+  .project, .project.project-reverse
     article
       width: 90%
-      margin-left: 0%
+      margin-left: 0
       margin-right: 0
       float: none
       margin-bottom: 1.5em
     aside
       width: 90%
-      margin-left: 0%
+      margin-left: 0
+      margin-right: 0
       margin-top: 0
+      float: none
       span.break
         display: inline
 //

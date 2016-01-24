@@ -185,3 +185,15 @@ h4.explain-long {
   margin-bottom: 3px;
   }
 }
+
+.work-back {
+  border-radius: 50%;
+background: $blue;
+width: 120px;
+height: 120px;
+position: absolute;
+z-index: 0;
+}
+.work-back + img {
+  position: relative;
+}
