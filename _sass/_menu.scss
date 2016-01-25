@@ -142,14 +142,17 @@ hr {
 		height: 70%;
 		font-size: 34px;
 	}
-	.overlay ul li {
-		min-height: 34px;
-	}
+
 }
 
 @media all and (max-width: 660px) {
 	#trigger-overlay {
 		width: 40px;
 		padding: 1px 10px;
+	}
+
+	.overlay ul li a{
+		min-height: 34px;
+		font-size: 25px;
 	}
 }
