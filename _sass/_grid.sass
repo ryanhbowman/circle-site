@@ -110,6 +110,9 @@
     margin-right: 0
 
 @media all and (max-width: 668px)
+  .columns, .half.big-space
+    float: none
+    width: 90%
   .two-fifths, .three-fifths
     float: none
     width: 90%
@@ -117,8 +120,9 @@
     padding: 0 1em
   .page.row
     padding: 0
-  .fifth, .fourths
+  .fifth.columns, .fourths.columns
     width: 40%
+    float: left
     margin-right: 7%
     margin-bottom: 1em
     &:nth-of-type(2n)
